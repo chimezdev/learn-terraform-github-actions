@@ -75,3 +75,6 @@ jobs:
       - name: Terraform Apply
         if: github.ref == 'refs/heads/main' && github.event_name == 'push'
         run: terraform apply -auto-approve
+#### I faced permission issue using this code. In the end, the error was from github actions workflow permission.
+#### Go to the repository settings > Actions > General > Workflow Permissions and Select 'Read and Write Permissions'. 
+#### This will grant permission for terraform to ouput to the PR
