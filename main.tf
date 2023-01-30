@@ -12,7 +12,7 @@ terraform {
   required_version = "~> 1.0"
 
   backend "remote" {
-    organization = "cloudguru-cicd-demo "
+    organization = "cloudguru-cicd-demo"
 
     workspaces {
       name = "cicd-project"
