@@ -60,7 +60,8 @@ jobs:
             </details>
 
             *Pusher: @${{ github.actor }}, Action: \`${{ github.event_name }}\`*`;
-                #uses the createComment fn to create comments in the github issue
+            
+            #### uses the createComment fn to create comments in the github issue
             github.issues.createComment({ 
               issue_number: context.issue.number,
               owner: context.repo.owner,
