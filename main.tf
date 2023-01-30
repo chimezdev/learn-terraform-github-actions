@@ -20,7 +20,7 @@ terraform {
   }
 }
 
-
+#making a change to update provider
 provider "aws" {
   region = "us-east-1"
 }
