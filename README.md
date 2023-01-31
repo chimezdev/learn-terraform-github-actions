@@ -46,3 +46,5 @@ This repo is a companion repo to the [Automate Terraform with GitHub Actions](ht
     - you can now remove the state file store locally by running `rm terraform.tfstate`
     - head back to your browser and visit your terraform cloud page and add your aws credentials as environment variables.
     - when done go to the terminal and run `terraform apply`
+
+    
